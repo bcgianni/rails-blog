@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./Home";
+import BlogPost from "./BlogPost";
+import NotFound from "./NotFound";
+import Contact from "./Contact";
+import About from "./About";
 
 class App extends Component {
   render() {
